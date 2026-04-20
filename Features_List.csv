@@ -1,0 +1,15 @@
+Name,Role,Type,Units,Description,Missing Values
+age,feature,integer,years,,No
+sex,feature,categorical,,,No
+cp,feature,categorical,,,No
+trestbps,feature,integer,mm Hg,resting blood pressure (on admission to the hospital),No
+chol,feature,integer,mg/dl,serum cholestoral,No
+fbs,feature,categorical,,fasting blood sugar > 120 mg/dl,No
+restecg,feature,categorical,,,No
+thalach,feature,integer,,maximum heart rate achieved,No
+exang,feature,categorical,,exercise induced angina,No
+oldpeak,feature,integer,,ST depression induced by exercise relative to rest,No
+slope,feature,categorical,,,No
+ca,feature,integer,,number of major vessels (0-3) colored by flourosopy,Yes
+thal,feature,categorical,,,Yes
+num,target,integer,,diagnosis of heart disease,No

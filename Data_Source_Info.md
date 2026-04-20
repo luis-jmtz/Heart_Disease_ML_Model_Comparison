@@ -1,23 +1,21 @@
-Link: https://archive-beta.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
+Link: https://archive-beta.ics.uci.edu/dataset/45/heart+disease
 
-Citation: Wolberg, W., Mangasarian, O., Street, N., & Street, W. (1993). Breast Cancer Wisconsin (Diagnostic) [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5DW2B.
+Citation: Janosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1989). Heart Disease [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C52P4X.
 
 
 ## About
-Diagnostic Wisconsin Breast Cancer Database.
+4 databases: Cleveland, Hungary, Switzerland, and the VA Long Beach
 
-Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass.  They describe characteristics of the cell nuclei present in the image. A few of the images can be found at http://www.cs.wisc.edu/~street/images/
+This database contains 76 attributes, but all published experiments refer to using a subset of 14 of them.  In particular, the Cleveland database is the only one that has been used by ML researchers to date.  The "goal" field refers to the presence of heart disease in the patient.  It is integer valued from 0 (no presence) to 4. Experiments with the Cleveland database have concentrated on simply attempting to distinguish presence (values 1,2,3,4) from absence (value 0).  
+   
+The names and social security numbers of the patients were recently removed from the database, replaced with dummy values.
 
-Separating plane described above was obtained using Multisurface Method-Tree (MSM-T) [K. P. Bennett, "Decision Tree Construction Via Linear Programming." Proceedings of the 4th Midwest Artificial Intelligence and Cognitive Science Society, pp. 97-101, 1992], a classification method which uses linear programming to construct a decision tree.  Relevant features were selected using an exhaustive search in the space of 1-4 features and 1-3 separating planes.
+One file has been "processed", that one containing the Cleveland database.  All four unprocessed files also exist in this directory.
 
-The actual linear program used to obtain the separating plane in the 3-dimensional space is that described in: [K. P. Bennett and O. L. Mangasarian: "Robust Linear Programming Discrimination of Two Linearly Inseparable Sets", Optimization Methods and Software 1, 1992, 23-34].
-
-This database is also available through the UW CS ftp server:
-ftp ftp.cs.wisc.edu
-cd math-prog/cpo-dataset/machine-learn/WDBC/
+To see Test Costs (donated by Peter Turney), please see the folder "Costs"
 
 ## Authors
-William Wolberg
-Olvi Mangasarian
-Nick Street
-W. Street
+Andras Janosi
+William Steinbrunn
+Matthias Pfisterer
+Robert Detrano
